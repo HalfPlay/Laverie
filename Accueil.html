@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Online reservation system for booking services">
+    <title>Reservation System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .hero-image {
+            background-image: url('https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <!-- Navigation -->
+    <nav class="bg-blue-600 text-white p-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold">ReserveNow</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="index.html" class="hover:text-blue-200">Home</a>
+                <a href="reservation.html" class="hover:text-blue-200">Reserve</a>
+                <a href="contact.html" class="hover:text-blue-200">Contact</a>
+            </div>
+            <button class="md:hidden">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-image h-96 flex items-center justify-center text-white">
+        <div class="text-center bg-black bg-opacity-50 p-8 rounded-lg">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Book Your Service Easily</h1>
+            <p class="text-xl mb-6">Simple, fast and reliable reservation system</p>
+            <a href="reservation.html" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+                Reserve Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Meeting Rooms</h3>
+                    <p class="text-gray-600">Professional spaces for your business meetings and discussions.</p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Conference Halls</h3>
+                    <p class="text-gray-600">Large spaces perfect for conferences and big events.</p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Virtual Sessions</h3>
+                    <p class="text-gray-600">Online meeting solutions with professional setups.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">ReserveNow</h3>
+                    <p>Making reservations simple and efficient for everyone.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-blue-300">Home</a></li>
+                        <li><a href="reservation.html" class="hover:text-blue-300">Reservations</a></li>
+                        <li><a href="contact.html" class="hover:text-blue-300">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact</h3>
+                    <p><i class="fas fa-envelope mr-2"></i> info@reservenow.com</p>
+                    <p><i class="fas fa-phone mr-2"></i> +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center">
+                <p>&copy; 2023 ReserveNow. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
